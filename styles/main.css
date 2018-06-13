@@ -4,3 +4,20 @@
   box-sizing: border-box;
   border: 1px solid black;
 }
+
+.bg-image {
+  background-color: grey;
+  backgound-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+}
+
+.banner {
+  background-image: url('../images/leaves.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.dog-image {
+  background-image: url('../images/dog.jpg');
+}
