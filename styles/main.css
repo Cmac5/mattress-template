@@ -29,6 +29,11 @@ h5 {
   font-size: 1.5rem;
 }
 
+form {
+  padding: 5%;
+}
+
+
 .bg-image {
   background-color: grey;
   background-size: cover;
@@ -82,13 +87,32 @@ h5 {
   text-align: right;
 }
 
-.footer {
+footer {
   color: white;
   text-align: left;
   background-color: teal;
   padding: 5%;
 }
 
-.footer .heading-text-yellow {
+footer .heading-text-yellow {
   display: block;
+}
+
+footer form * {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 8px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer button {
+  border-radius: 8px;
+  background-color: #ecb300;
+  color: white;
+  border: none;
+}
+
+footer textarea {
+  min-height: 150px;
 }
