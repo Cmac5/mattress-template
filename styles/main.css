@@ -110,9 +110,17 @@ footer button {
   border-radius: 8px;
   background-color: #ecb300;
   color: white;
-  border: none;
+  border: 1px solid teal ;
+  transition: 1s;
 }
 
 footer textarea {
   min-height: 150px;
+}
+
+footer button:hover {
+  background-color: white;
+  color: #ecb300;
+  border-color: #ecb300;
+  transform: rotateZ(360deg);
 }
