@@ -2,22 +2,93 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  color: white;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
 }
 
 .bg-image {
   background-color: grey;
-  backgound-size: cover;
+  background-size: cover;
   background-position: center;
   padding-bottom: 10%;
+  min-height: 60vh;
 }
 
 .banner {
   background-image: url('../images/leaves.jpg');
   background-size: cover;
   min-height: 100vh;
+  text-align: center;
+}
+
+.text-padding {
+  text-align: left;
+  padding: 5%;
+}
+
+.heading-text-yellow {
+  color: #ecb300;
+}
+
+.heading-text-white {
+  color: white;
 }
 
 .dog-image {
   background-image: url('../images/dog.jpg');
+}
+
+.bed-image {
+  background-image: url('../images/bed.jpg');
+}
+
+.pencil-image {
+  background-image: url('../images/pencil.jpg');
+}
+
+.blockquote {
+  text-align: center;
+  padding: 5%
+}
+
+.banner-ad {
+  text-align: center;
+}
+
+.caption {
+  text-align: right;
+}
+
+.footer {
+  color: white;
+  text-align: left;
+  background-color: teal;
+  padding: 5%;
+}
+
+.footer .heading-text-yellow {
+  display: block;
 }
