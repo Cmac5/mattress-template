@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  color: white;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+form {
+  padding: 5%;
+}
+
+
+.bg-image {
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+  min-height: 60vh;
+}
+
+.banner {
+  background-image: url('../images/leaves.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.text-padding {
+  text-align: left;
+  padding: 5%;
+}
+
+.heading-text-yellow {
+  color: #ecb300;
+}
+
+.heading-text-white {
+  color: white;
+}
+
+.dog-image {
+  background-image: url('../images/dog.jpg');
+}
+
+.bed-image {
+  background-image: url('../images/bed.jpg');
+}
+
+.pencil-image {
+  background-image: url('../images/pencil.jpg');
+}
+
+.blockquote {
+  text-align: center;
+  padding: 5%
+}
+
+.banner-ad {
+  text-align: center;
+}
+
+.caption {
+  text-align: right;
+}
+
+footer {
+  color: white;
+  text-align: left;
+  background-color: teal;
+  padding: 5%;
+}
+
+footer .heading-text-yellow {
+  display: block;
+}
+
+footer form * {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 8px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer button {
+  border-radius: 8px;
+  background-color: #ecb300;
+  color: white;
+  border: 1px solid teal ;
+  transition: 1s;
+}
+
+footer textarea {
+  min-height: 150px;
+}
+
+footer button:hover {
+  background-color: white;
+  color: #ecb300;
+  border-color: #ecb300;
+  transform: rotateZ(360deg);
+}
