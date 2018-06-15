@@ -1,0 +1,31 @@
+---
+layout: default
+destinations:
+  - name: Bali
+    description: Is perfect to visit in June
+  - name: Hawaii
+    description: Is great to visit all year round
+  - name: Paris
+    description: Is always a good idea!
+---
+
+  {% include instagram.html %}
+
+<section>
+
+  <h2> Holiday Ideas </h2>
+  <p> When is the best time to go? </p>
+
+<div class="grid">
+
+  {% for item in page.destinations %}
+
+<div class="col-4">
+    <h2> {{item.name}} </h2>
+    <p> {{item.description}} </p>
+</div>
+
+  {% endfor %}
+</div>
+
+</section>
